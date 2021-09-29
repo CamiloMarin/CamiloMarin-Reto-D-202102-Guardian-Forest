@@ -14,7 +14,7 @@ public class PlumaMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        plumaRB.velocity = new Vector2(plumaSpeed, plumaRB.velocity.y);
+        plumaRB.velocity = new Vector2(plumaSpeed, plumaRB.velocity.x);
 
 
 
