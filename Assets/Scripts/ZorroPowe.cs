@@ -17,7 +17,7 @@ public class ZorroPowe : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            CharacterMovement2.Instance2.JumpForce2 = 800f;
+            CharacterMovement2.Instance2.JumpForce2 = 850f;
             
             StartCoroutine(WaitBeforDesactivate());
         }

@@ -132,4 +132,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b74ded867edb6e448b442f36b45556ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  plumaSpeed: 20
+  plumaSpeed: -20
