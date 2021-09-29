@@ -28,6 +28,7 @@ public class ShieldPower : MonoBehaviour
                 activateShield = true;
                 CharacterMovement.Instance.MoveSpeed = 0;
                 CharacterMovement.Instance.JumpForce = 0;
+                
 
 
 
