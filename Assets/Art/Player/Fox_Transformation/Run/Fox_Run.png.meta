@@ -1,28 +1,43 @@
 fileFormatVersion: 2
-guid: d386536ddb9fda84b940188d501f6358
+guid: f4198482dd9c32a4db5e67dc8a9c38c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6717884257390833292
-    second: Shield_0
+      213: -8479599488506246487
+    second: Fox_Run_0
   - first:
-      213: -7947067082740497745
-    second: Shield_1
+      213: 8940692198057652324
+    second: Fox_Run_1
   - first:
-      213: -4098029715399502762
-    second: Shield_2
+      213: 7450302445780164450
+    second: Fox_Run_2
   - first:
-      213: -407368442477547055
-    second: Shield_3
+      213: -1755410692150350131
+    second: Fox_Run_3
   - first:
-      213: -8418880130915447063
-    second: Shield_4
+      213: -6847414180449743322
+    second: Fox_Run_4
   - first:
-      213: -7904321528907490436
-    second: Shield_5
+      213: 7368488689714499533
+    second: Fox_Run_5
   - first:
-      213: 2341536110440916619
-    second: Shield_6
+      213: -5652973451314003899
+    second: Fox_Run_6
+  - first:
+      213: 3889007037854778429
+    second: Fox_Run_7
+  - first:
+      213: -5544566881295428574
+    second: Fox_Run_8
+  - first:
+      213: -5266394886294818383
+    second: Fox_Run_9
+  - first:
+      213: 8803151907699168629
+    second: Fox_Run_10
+  - first:
+      213: 5126980202822494138
+    second: Fox_Run_11
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -155,148 +170,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shield_0
+      name: Fox_Run_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 11
-        width: 15
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c909c6be2844c8c48956628d5f792728
-      internalID: -6717884257390833292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_1
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 11
-        width: 17
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c62f5e3d4017ce44d839508216e35e11
-      internalID: -7947067082740497745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_2
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 11
-        width: 22
+        x: 5
+        y: 0
+        width: 45
         height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86df71ce7b8b27245aa14fadabeea225
-      internalID: -4098029715399502762
+      spriteID: 5e23438c7b0e9b94f89d2d423158ccf3
+      internalID: -8479599488506246487
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_3
+      name: Fox_Run_1
       rect:
         serializedVersion: 2
-        x: 139
-        y: 5
-        width: 40
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 54
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c4e34be76df1444ab970c46313835d
-      internalID: -407368442477547055
+      spriteID: a44082d695641d647880c8a63805bdc3
+      internalID: 8940692198057652324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_4
+      name: Fox_Run_2
       rect:
         serializedVersion: 2
-        x: 199
-        y: 6
-        width: 41
-        height: 40
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 103
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed95202183590f4598a54cd409b8b42
-      internalID: -8418880130915447063
+      spriteID: cf06854c4e08d2440bce853fc8d3e5d8
+      internalID: 7450302445780164450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_5
+      name: Fox_Run_3
       rect:
         serializedVersion: 2
-        x: 259
-        y: 6
-        width: 42
-        height: 41
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 155
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc8ab15025c3cef458c3dde24cbfb4d1
-      internalID: -7904321528907490436
+      spriteID: 6a3e1239d192f5b4993a406cdd5fd1ca
+      internalID: -1755410692150350131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_6
+      name: Fox_Run_4
       rect:
         serializedVersion: 2
-        x: 329
-        y: 4
-        width: 47
-        height: 45
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 208
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a54e193e39ac14ebfecf760a95accb
-      internalID: 2341536110440916619
+      spriteID: 2ba5dd9a28ae5474b835562771b1eba2
+      internalID: -6847414180449743322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_5
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3957454012e7d84880816d82668a3d5
+      internalID: 7368488689714499533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20182cef5fd789489a5c26027306c6e
+      internalID: -5652973451314003899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_7
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b23ff864445a314b9942275ce622375
+      internalID: 3889007037854778429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_8
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59515be395ad784a88ac033a7cc3ac4
+      internalID: -5544566881295428574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_9
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd960fa9f988a2a44af9a19441de5511
+      internalID: -5266394886294818383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_10
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f25277ac3c410428172368500dc6c4
+      internalID: 8803151907699168629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Run_11
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 0
+        width: 45
+        height: 30
+      alignment: 9
+      pivot: {x: 0.56, y: 0.62}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20f550145121da47bc4a757e0f733b1
+      internalID: 5126980202822494138
       vertices: []
       indices: 
       edges: []
@@ -304,7 +424,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3eb64d8f850c2164d9e6148772b7eab3
+    spriteID: 4eeaa13fa541907499a09ee182e1ce4d
     internalID: 0
     vertices: []
     indices: 

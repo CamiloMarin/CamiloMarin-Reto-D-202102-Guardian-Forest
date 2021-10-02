@@ -1,28 +1,25 @@
 fileFormatVersion: 2
-guid: d386536ddb9fda84b940188d501f6358
+guid: 6f98a293d9370fc4bb6078916ef12db5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6717884257390833292
-    second: Shield_0
+      213: 1124462132972296782
+    second: Jump_Down_0
   - first:
-      213: -7947067082740497745
-    second: Shield_1
+      213: -2229719298995251050
+    second: Jump_Down_1
   - first:
-      213: -4098029715399502762
-    second: Shield_2
+      213: 517296509921620226
+    second: Jump_Down_2
   - first:
-      213: -407368442477547055
-    second: Shield_3
+      213: -4431753067789257789
+    second: Jump_Down_3
   - first:
-      213: -8418880130915447063
-    second: Shield_4
+      213: -3126643395967474504
+    second: Jump_Down_4
   - first:
-      213: -7904321528907490436
-    second: Shield_5
-  - first:
-      213: 2341536110440916619
-    second: Shield_6
+      213: -8939452568020558757
+    second: Jump_Down_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -84,7 +81,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -96,7 +93,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -120,7 +117,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -132,7 +129,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -144,7 +141,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,76 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shield_0
+      name: Jump_Down_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 11
-        width: 15
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c909c6be2844c8c48956628d5f792728
-      internalID: -6717884257390833292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_1
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 11
-        width: 17
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c62f5e3d4017ce44d839508216e35e11
-      internalID: -7947067082740497745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_2
-      rect:
-        serializedVersion: 2
-        x: 90
-        y: 11
-        width: 22
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86df71ce7b8b27245aa14fadabeea225
-      internalID: -4098029715399502762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shield_3
-      rect:
-        serializedVersion: 2
-        x: 139
+        x: 4
         y: 5
-        width: 40
-        height: 41
+        width: 12
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c4e34be76df1444ab970c46313835d
-      internalID: -407368442477547055
+      spriteID: 8588acd76d7d66b4dbb0caf7b0d323c3
+      internalID: 1124462132972296782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_4
+      name: Jump_Down_1
       rect:
         serializedVersion: 2
-        x: 199
+        x: 22
         y: 6
-        width: 41
-        height: 40
+        width: 12
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aed95202183590f4598a54cd409b8b42
-      internalID: -8418880130915447063
+      spriteID: 4ec4f47ff4e0b03438b7193c5c1836bc
+      internalID: -2229719298995251050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_5
+      name: Jump_Down_2
       rect:
         serializedVersion: 2
-        x: 259
+        x: 40
         y: 6
-        width: 42
-        height: 41
+        width: 12
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc8ab15025c3cef458c3dde24cbfb4d1
-      internalID: -7904321528907490436
+      spriteID: 593ff61c551ac204186649b6c7e02760
+      internalID: 517296509921620226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shield_6
+      name: Jump_Down_3
       rect:
         serializedVersion: 2
-        x: 329
-        y: 4
-        width: 47
-        height: 45
+        x: 58
+        y: 7
+        width: 16
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,8 +229,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63a54e193e39ac14ebfecf760a95accb
-      internalID: 2341536110440916619
+      spriteID: 9f626ba42c0bcbd4d98afaec89be4003
+      internalID: -4431753067789257789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Down_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 7
+        width: 19
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a3fd680d9c61b49833e7329bab4979
+      internalID: -3126643395967474504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jump_Down_5
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 7
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab7ac8e0cfec147a93e8ef44f077d5
+      internalID: -8939452568020558757
       vertices: []
       indices: 
       edges: []
@@ -304,7 +280,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3eb64d8f850c2164d9e6148772b7eab3
+    spriteID: c2ff3c6844bd8c846a381813b960b432
     internalID: 0
     vertices: []
     indices: 

@@ -4,32 +4,105 @@ using UnityEngine;
 
 public class ZorroPowe : MonoBehaviour
 {
+    public Player player;
+    public Rigidbody2D rb;
+    public Animator anim;
 
-  
+    IEnumerator dashCoroutine;
+    public float dashDuration = 0.1f; 
+    public float dashCooldown = 5f;
+    float direction = 1;
+    float normalGravity;
+    bool isDashing;
+    bool canDash = true;
+    bool animateDash;
 
-    void Start()
+    void Start() 
     {
-       
-
+        anim = GetComponent<Animator>();
+        normalGravity = rb.gravityScale;
+        
     }
-
-    void Update()
+    
+    void Update() 
     {
-        if (Input.GetMouseButtonDown(0))
+        
+        if(animateDash){
+            anim.SetBool("isDashing", true);
+        } else
         {
-            CharacterMovement2.Instance2.JumpForce2 = 850f;
-            
-            StartCoroutine(WaitBeforDesactivate());
+             anim.SetBool("isDashing", false);
         }
 
+        if(player.dirX != 0)
+        {
+            direction = player.dirX;
+        }
         
+        if (Input.GetMouseButtonDown(0) && canDash == true)
+        { 
+           if(dashCoroutine != null)
+            {
+                
+                StopCoroutine(dashCoroutine);
+            
+            }
+            
+            dashCoroutine = Dash();
+            StartCoroutine(dashCoroutine);
+
+
+        } 
+        
+
     }
-     IEnumerator WaitBeforDesactivate()
+    
+     
+    void FixedUpdate() 
     {
-        yield return new WaitForSeconds(2);
+        if(isDashing)
+        {
+            
+            animateDash = true;
+            rb.AddForce(new Vector2(direction*6,0), ForceMode2D.Impulse);
+            
+        } else
+        {   
+            animateDash = false;
+           
+        }
+    }
         
-        CharacterMovement2.Instance2.JumpForce2 = 650f;
+    IEnumerator Dash()
+    {
+        // 
+        Vector2 orgiginalVelocity = rb.velocity;
+        isDashing = true;
+        canDash = false;
+        rb.gravityScale = 0;
+        rb.velocity = Vector2.zero;
+        
+        yield return new WaitForSeconds(dashDuration);
+        //
+        
+        isDashing = false;
+        rb.gravityScale = normalGravity;
+        rb.velocity = orgiginalVelocity;
+
+        yield return new WaitForSeconds(dashCooldown);
+        //
+        canDash = true;
     }
 
+    /// <summary>
+    /// This function is called when the object becomes enabled and active.
+    /// </summary>
+    void OnDisable()
+    {
+        StopAllCoroutines();
+        
+        canDash = true;
+
+    }
 
 }
