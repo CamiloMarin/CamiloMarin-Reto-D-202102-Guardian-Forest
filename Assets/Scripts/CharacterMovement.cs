@@ -1,11 +1,14 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CharacterMovement : MonoBehaviour
 {
+    
     private Rigidbody2D rb;
     private Animator anim;
+
+    // Movimiento del personaje 
     private float moveSpeed;
     private float jumpForce = 650;
     private float dirX;

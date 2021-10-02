@@ -1,43 +1,34 @@
 fileFormatVersion: 2
-guid: abb908df3db53034584d0e4102782247
+guid: fb12916c0a2ce2141b790259cbc96f9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8479599488506246487
-    second: Fox_Run_0
+      213: 6455613341951075585
+    second: Fox_Dash_0
   - first:
-      213: 8940692198057652324
-    second: Fox_Run_1
+      213: 1085405533685329276
+    second: Fox_Dash_1
   - first:
-      213: 7450302445780164450
-    second: Fox_Run_2
+      213: 1317463222106944353
+    second: Fox_Dash_2
   - first:
-      213: -1755410692150350131
-    second: Fox_Run_3
+      213: 8001507609166487425
+    second: Fox_Dash_3
   - first:
-      213: -6847414180449743322
-    second: Fox_Run_4
+      213: 4157510595401068811
+    second: Fox_Dash_4
   - first:
-      213: 7368488689714499533
-    second: Fox_Run_5
+      213: -8795747418638093683
+    second: Fox_Dash_5
   - first:
-      213: -5652973451314003899
-    second: Fox_Run_6
+      213: 8908378395089528434
+    second: Fox_Dash_6
   - first:
-      213: 3889007037854778429
-    second: Fox_Run_7
+      213: -5615144392571564512
+    second: Fox_Dash_7
   - first:
-      213: -5544566881295428574
-    second: Fox_Run_8
-  - first:
-      213: -5266394886294818383
-    second: Fox_Run_9
-  - first:
-      213: 8803151907699168629
-    second: Fox_Run_10
-  - first:
-      213: 5126980202822494138
-    second: Fox_Run_11
+      213: -3977372886972802572
+    second: Fox_Dash_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -67,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: 2
     mipBias: -100
     wrapU: 1
@@ -81,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 72
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -170,253 +161,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fox_Run_0
+      name: Fox_Dash_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 13
-        width: 43
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7985f5afbce858a459c1b36c90ced641
-      internalID: -8479599488506246487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_1
-      rect:
-        serializedVersion: 2
-        x: 46
-        y: 13
-        width: 42
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 844fc25cc2c683348a0cdc890040c8c9
-      internalID: 8940692198057652324
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_2
-      rect:
-        serializedVersion: 2
-        x: 92
-        y: 13
-        width: 46
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 1, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c438207035e2ee04399d528eb30f7aab
-      internalID: 7450302445780164450
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_3
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 13
-        width: 46
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5450f17dbf95373499df962379d000bc
-      internalID: -1755410692150350131
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_4
-      rect:
-        serializedVersion: 2
-        x: 189
+        x: 10
         y: 14
         width: 43
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7839c9b5fa7465147bb4d770271a5f60
-      internalID: -6847414180449743322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_5
-      rect:
-        serializedVersion: 2
-        x: 243
-        y: 13
-        width: 40
         height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2349ae48accd39499a41370c50ea793
-      internalID: 7368488689714499533
+      spriteID: 31a16f4442fae164b816f4af9d8b1912
+      internalID: 6455613341951075585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox_Run_6
+      name: Fox_Dash_1
       rect:
         serializedVersion: 2
-        x: 285
-        y: 13
-        width: 42
-        height: 28
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9960c37e45579241bf3a6cb24ad5d7b
-      internalID: -5652973451314003899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_7
-      rect:
-        serializedVersion: 2
-        x: 330
-        y: 14
-        width: 43
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89898f896a4f7fb48bfe86ba4fa6c4c5
-      internalID: 3889007037854778429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fox_Run_8
-      rect:
-        serializedVersion: 2
-        x: 378
+        x: 60
         y: 14
         width: 44
-        height: 26
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04d920b6e56c2db488229af156a427e7
-      internalID: -5544566881295428574
+      spriteID: 5885b34058f4ea145949d4a13915e19c
+      internalID: 1085405533685329276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox_Run_9
+      name: Fox_Dash_2
       rect:
         serializedVersion: 2
-        x: 427
+        x: 110
         y: 14
         width: 47
-        height: 27
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c69230f47a6d87a4e928202ef5250e3b
-      internalID: -5266394886294818383
+      spriteID: db128f2f35a777f40849c8d1d9d635e9
+      internalID: 1317463222106944353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox_Run_10
+      name: Fox_Dash_3
       rect:
         serializedVersion: 2
-        x: 480
+        x: 164
         y: 14
-        width: 44
-        height: 27
+        width: 47
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa8e425bf668fc845b05b4a81aefa961
-      internalID: 8803151907699168629
+      spriteID: 2b9ff8a11225af84db00f42fe4330599
+      internalID: 8001507609166487425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fox_Run_11
+      name: Fox_Dash_4
       rect:
         serializedVersion: 2
-        x: 534
+        x: 220
+        y: 14
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4365b10cf68743b479b5a6a07558ca82
+      internalID: 4157510595401068811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Dash_5
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 14
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18efd046b17e4fb4eb30c2e0d779440a
+      internalID: -8795747418638093683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Dash_6
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 14
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5bb479a561be245b2da686783e672d
+      internalID: 8908378395089528434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Dash_7
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 14
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955dba63a3967ad44aee292cb074c255
+      internalID: -5615144392571564512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fox_Dash_8
+      rect:
+        serializedVersion: 2
+        x: 437
         y: 14
         width: 41
-        height: 26
+        height: 28
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 139172b49f5807c44bd9998f9fe68182
-      internalID: 5126980202822494138
+      spriteID: 5f4dccccd1876ed46bead02407161634
+      internalID: -3977372886972802572
       vertices: []
       indices: 
       edges: []
@@ -424,7 +352,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 1303171bd7cb10e468d5b6d5549fa050
     internalID: 0
     vertices: []
     indices: 

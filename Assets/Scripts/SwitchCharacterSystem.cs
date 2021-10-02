@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -52,7 +52,7 @@ public class SwitchCharacterSystem : MonoBehaviour
             lastCharacter = character3.transform;
         }
     }
-
+   
     private void ChangePosition(int characterNumber, Transform lastCharacter)
     {
         switch (characterNumber)
@@ -73,4 +73,5 @@ public class SwitchCharacterSystem : MonoBehaviour
                 break;
         }
     }
+    
 }

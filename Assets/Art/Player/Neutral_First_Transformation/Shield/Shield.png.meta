@@ -1,22 +1,28 @@
 fileFormatVersion: 2
-guid: 42995955740c79f4b95e31e30638bcf5
+guid: d386536ddb9fda84b940188d501f6358
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3781910019033479378
-    second: Idle1_0
+      213: -6717884257390833292
+    second: Shield_0
   - first:
-      213: -1461846728506201224
-    second: Idle1_1
+      213: -7947067082740497745
+    second: Shield_1
   - first:
-      213: 2274338124900576597
-    second: Idle1_2
+      213: -4098029715399502762
+    second: Shield_2
   - first:
-      213: 5965835319419519687
-    second: Idle1_3
+      213: -407368442477547055
+    second: Shield_3
   - first:
-      213: 1112028525058818275
-    second: Idle1_4
+      213: -8418880130915447063
+    second: Shield_4
+  - first:
+      213: -7904321528907490436
+    second: Shield_5
+  - first:
+      213: 2341536110440916619
+    second: Shield_6
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -60,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 80
+  spritePixelsToUnits: 72
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,13 +155,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle1_0
+      name: Shield_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 0
-        width: 12
-        height: 32
+        x: 8
+        y: 11
+        width: 15
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19fcd16ab9d280846be1789e38c511ea
-      internalID: -3781910019033479378
+      spriteID: c909c6be2844c8c48956628d5f792728
+      internalID: -6717884257390833292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1_1
+      name: Shield_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 14
-        height: 33
+        x: 49
+        y: 11
+        width: 17
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,20 +190,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb13cbd35c2239428cb7e5af8fbce16
-      internalID: -1461846728506201224
+      spriteID: c62f5e3d4017ce44d839508216e35e11
+      internalID: -7947067082740497745
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1_2
+      name: Shield_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 0
-        width: 16
-        height: 34
+        x: 90
+        y: 11
+        width: 22
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,41 +211,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e20e5dd14e36594ab204fb9cdb44235
-      internalID: 2274338124900576597
+      spriteID: 86df71ce7b8b27245aa14fadabeea225
+      internalID: -4098029715399502762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle1_3
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 0
-        width: 14
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 24b1bf5b42fc7944f84a0be7edb0b7c0
-      internalID: 5965835319419519687
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle1_4
+      name: Shield_3
       rect:
         serializedVersion: 2
         x: 139
-        y: 0
-        width: 12
-        height: 32
+        y: 5
+        width: 40
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,8 +232,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 976b3b77dae45754fa953be58f4dfa58
-      internalID: 1112028525058818275
+      spriteID: 75c4e34be76df1444ab970c46313835d
+      internalID: -407368442477547055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_4
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 6
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aed95202183590f4598a54cd409b8b42
+      internalID: -8418880130915447063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 6
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8ab15025c3cef458c3dde24cbfb4d1
+      internalID: -7904321528907490436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shield_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 4
+        width: 47
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a54e193e39ac14ebfecf760a95accb
+      internalID: 2341536110440916619
       vertices: []
       indices: 
       edges: []
@@ -256,7 +304,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ac6ec8e94c1916a4e86e541925f1d0f7
+    spriteID: 3eb64d8f850c2164d9e6148772b7eab3
     internalID: 0
     vertices: []
     indices: 
@@ -265,7 +313,7 @@ TextureImporter:
     secondaryTextures: []
   spritePackingTag: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 1
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
