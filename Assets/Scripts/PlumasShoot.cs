@@ -19,14 +19,15 @@ public class PlumasShoot : MonoBehaviour
         {
             nextfire = Time.time + fireRate;
             Instantiate(PlumaPrefab, PlumaSpawner.position, PlumaSpawner.rotation);
+            
             //disparoplayerSource.Play();
 
 
 
             //if (ps != null)
             //{
-              //  Instantiate<ParticleSystem>(ps, transform.position, ps.transform.rotation).Play();
-                //anim.SetTrigger("New Trigger");
+            //  Instantiate<ParticleSystem>(ps, transform.position, ps.transform.rotation).Play();
+            //anim.SetTrigger("New Trigger");
             //}
         }
 

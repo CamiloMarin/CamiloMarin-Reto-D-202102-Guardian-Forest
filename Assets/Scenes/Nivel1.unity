@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 23583608}
   - component: {fileID: 23583610}
   - component: {fileID: 23583609}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -239,7 +239,7 @@ GameObject:
   - component: {fileID: 24593574}
   - component: {fileID: 24593576}
   - component: {fileID: 24593575}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -649,7 +649,7 @@ GameObject:
   - component: {fileID: 66057027}
   - component: {fileID: 66057028}
   - component: {fileID: 66057029}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: energia_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -733,7 +733,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.00883621, y: -0.18103912}
+  m_Offset: {x: -0.00883621, y: -0.423724}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -744,7 +744,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3621552, y: 1.1079218}
+  m_Size: {x: 0.3621552, y: 0.62255204}
   m_EdgeRadius: 0
 --- !u!1 &82412905
 GameObject:
@@ -838,7 +838,7 @@ GameObject:
   - component: {fileID: 106333648}
   - component: {fileID: 106333650}
   - component: {fileID: 106333649}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -935,6 +935,124 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &106789475 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6356047793322411690, guid: 82253b9e09c0ef349848ebecbae09049,
+    type: 3}
+  m_PrefabInstance: {fileID: 2007418816}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1001 &112815221
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1487913164641030944, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_Name
+      value: lluvia
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030944, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030946, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030947, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: delay
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913164641030947, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: fireRate
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913163658332497, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 1487913163658332497, guid: 78c9c038635477847bac64ee8744bd5a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 10.51
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 78c9c038635477847bac64ee8744bd5a, type: 3}
+--- !u!114 &127431773 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5640732714807927769, guid: 71b2861422520544db14983567654037,
+    type: 3}
+  m_PrefabInstance: {fileID: 1844342993}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &161910675
 GameObject:
   m_ObjectHideFlags: 0
@@ -946,7 +1064,7 @@ GameObject:
   - component: {fileID: 161910676}
   - component: {fileID: 161910678}
   - component: {fileID: 161910677}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1054,7 +1172,7 @@ GameObject:
   - component: {fileID: 165366946}
   - component: {fileID: 165366948}
   - component: {fileID: 165366947}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1162,7 +1280,7 @@ GameObject:
   - component: {fileID: 171365891}
   - component: {fileID: 171365893}
   - component: {fileID: 171365892}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1339,6 +1457,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &224864957 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5640732714276805489, guid: 71b2861422520544db14983567654037,
+    type: 3}
+  m_PrefabInstance: {fileID: 1844342993}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &228316706
 GameObject:
   m_ObjectHideFlags: 0
@@ -1431,9 +1561,10 @@ GameObject:
   - component: {fileID: 247478648}
   - component: {fileID: 247478650}
   - component: {fileID: 247478649}
+  - component: {fileID: 247478651}
   m_Layer: 0
   m_Name: bug_0 (15)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1518,6 +1649,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &247478651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247478647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &323326429
 GameObject:
   m_ObjectHideFlags: 0
@@ -1529,9 +1675,10 @@ GameObject:
   - component: {fileID: 323326430}
   - component: {fileID: 323326432}
   - component: {fileID: 323326431}
+  - component: {fileID: 323326433}
   m_Layer: 0
   m_Name: bug_0 (2)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1616,6 +1763,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &323326433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323326429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &356074519
 GameObject:
   m_ObjectHideFlags: 0
@@ -1627,7 +1789,7 @@ GameObject:
   - component: {fileID: 356074520}
   - component: {fileID: 356074522}
   - component: {fileID: 356074521}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1735,7 +1897,7 @@ GameObject:
   - component: {fileID: 367634420}
   - component: {fileID: 367634422}
   - component: {fileID: 367634421}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1843,9 +2005,10 @@ GameObject:
   - component: {fileID: 375459669}
   - component: {fileID: 375459671}
   - component: {fileID: 375459670}
+  - component: {fileID: 375459672}
   m_Layer: 0
   m_Name: bug_0 (30)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1930,6 +2093,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &375459672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 375459668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &388696584
 GameObject:
   m_ObjectHideFlags: 0
@@ -1941,7 +2119,7 @@ GameObject:
   - component: {fileID: 388696585}
   - component: {fileID: 388696587}
   - component: {fileID: 388696586}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2157,7 +2335,7 @@ GameObject:
   - component: {fileID: 428537850}
   - component: {fileID: 428537852}
   - component: {fileID: 428537851}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2265,9 +2443,10 @@ GameObject:
   - component: {fileID: 429373278}
   - component: {fileID: 429373280}
   - component: {fileID: 429373279}
+  - component: {fileID: 429373281}
   m_Layer: 0
   m_Name: bug_0 (10)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2352,6 +2531,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &429373281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429373277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &436322739
 GameObject:
   m_ObjectHideFlags: 0
@@ -2363,7 +2557,7 @@ GameObject:
   - component: {fileID: 436322740}
   - component: {fileID: 436322742}
   - component: {fileID: 436322741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2378,7 +2572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436322739}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.37, y: 19.99, z: 30}
+  m_LocalPosition: {x: -23.37, y: 19.7, z: 30}
   m_LocalScale: {x: 6.907967, y: 6.907967, z: 6.907967}
   m_Children: []
   m_Father: {fileID: 1512408845}
@@ -2551,7 +2745,7 @@ GameObject:
   - component: {fileID: 442114471}
   - component: {fileID: 442114472}
   - component: {fileID: 442114473}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: agua
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2820,7 +3014,7 @@ GameObject:
   - component: {fileID: 452590211}
   - component: {fileID: 452590213}
   - component: {fileID: 452590212}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2928,9 +3122,10 @@ GameObject:
   - component: {fileID: 466291079}
   - component: {fileID: 466291081}
   - component: {fileID: 466291080}
+  - component: {fileID: 466291082}
   m_Layer: 0
   m_Name: bug_0 (26)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3015,6 +3210,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &466291082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466291078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
+--- !u!4 &485895856 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+    type: 3}
+  m_PrefabInstance: {fileID: 631341459}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &504473271
 GameObject:
   m_ObjectHideFlags: 0
@@ -3026,7 +3242,7 @@ GameObject:
   - component: {fileID: 504473272}
   - component: {fileID: 504473274}
   - component: {fileID: 504473273}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3123,6 +3339,86 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &514418286
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 514418287}
+  - component: {fileID: 514418289}
+  - component: {fileID: 514418288}
+  m_Layer: 5
+  m_Name: Image (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &514418287
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514418286}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 865413621}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -879, y: 469}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &514418288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514418286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -4807476893790349538, guid: f81ad13d826088b4d9f1576a81229b6f,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &514418289
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514418286}
+  m_CullTransparentMesh: 0
+--- !u!4 &528836471 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1379438669849674684, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1944178531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &532012961
 GameObject:
   m_ObjectHideFlags: 0
@@ -3134,7 +3430,7 @@ GameObject:
   - component: {fileID: 532012962}
   - component: {fileID: 532012963}
   - component: {fileID: 532012964}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: energia_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3195,7 +3491,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_Sprite: {fileID: -2526315626089483272, guid: 22fbac945304d2948850df776cf1b083,
     type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.84705883}
   m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
@@ -3205,8 +3501,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &532012964
-EdgeCollider2D:
+--- !u!61 &532012964
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3218,21 +3514,19 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.014942527, y: 0.26507196}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.84, y: 1.17}
+    newSize: {x: 0.84, y: 1.17}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.32448214, y: 0.63985616}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: 0.19999757, y: 0.083469994}
-  - {x: 0.20691542, y: -0.046011865}
-  - {x: 0.3050546, y: -0.5484657}
-  - {x: -0.41656965, y: -0.55310446}
-  - {x: -0.26323706, y: -0.37570143}
-  - {x: -0.183552, y: -0.37752885}
-  - {x: -0.17631325, y: 0.080760874}
-  - {x: -0.14571038, y: 0.08346137}
-  - {x: -0.14271085, y: 0.5827662}
-  - {x: 0.18374187, y: 0.5844027}
-  - {x: 0.18319167, y: 0.07827391}
-  - {x: 0.19473906, y: -0.040523898}
 --- !u!1 &536491146
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,9 +3538,10 @@ GameObject:
   - component: {fileID: 536491147}
   - component: {fileID: 536491149}
   - component: {fileID: 536491148}
+  - component: {fileID: 536491150}
   m_Layer: 0
   m_Name: bug_0 (31)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3331,6 +3626,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &536491150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 536491146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &546151462
 GameObject:
   m_ObjectHideFlags: 0
@@ -3342,7 +3652,7 @@ GameObject:
   - component: {fileID: 546151463}
   - component: {fileID: 546151465}
   - component: {fileID: 546151464}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: energia_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3450,9 +3760,10 @@ GameObject:
   - component: {fileID: 553304887}
   - component: {fileID: 553304889}
   - component: {fileID: 553304888}
+  - component: {fileID: 553304890}
   m_Layer: 0
   m_Name: bug_0 (19)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3537,6 +3848,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &553304890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553304886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &554718095
 GameObject:
   m_ObjectHideFlags: 0
@@ -3548,7 +3874,7 @@ GameObject:
   - component: {fileID: 554718096}
   - component: {fileID: 554718098}
   - component: {fileID: 554718097}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_1 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3726,9 +4052,10 @@ GameObject:
   - component: {fileID: 573407236}
   - component: {fileID: 573407238}
   - component: {fileID: 573407237}
+  - component: {fileID: 573407239}
   m_Layer: 0
   m_Name: bug_0 (14)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3813,6 +4140,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &573407239
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 573407235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &573611155
 GameObject:
   m_ObjectHideFlags: 0
@@ -3824,7 +4166,7 @@ GameObject:
   - component: {fileID: 573611156}
   - component: {fileID: 573611158}
   - component: {fileID: 573611157}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio 2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4010,7 +4352,7 @@ GameObject:
   - component: {fileID: 595977551}
   - component: {fileID: 595977553}
   - component: {fileID: 595977552}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio destruido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4117,9 +4459,10 @@ GameObject:
   - component: {fileID: 601075888}
   - component: {fileID: 601075890}
   - component: {fileID: 601075889}
+  - component: {fileID: 601075891}
   m_Layer: 0
   m_Name: bug_0 (17)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4204,6 +4547,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &601075891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601075887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &621586930
 GameObject:
   m_ObjectHideFlags: 0
@@ -4215,9 +4573,10 @@ GameObject:
   - component: {fileID: 621586931}
   - component: {fileID: 621586933}
   - component: {fileID: 621586932}
+  - component: {fileID: 621586934}
   m_Layer: 0
   m_Name: bug_0 (21)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4302,6 +4661,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &621586934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621586930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
+--- !u!1001 &631341459
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9125906282566749431, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_Name
+      value: Post-process Volume
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749431, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9125906282566749429, guid: 073b03ea41c64b5438f4270f5c42e0df,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 073b03ea41c64b5438f4270f5c42e0df, type: 3}
 --- !u!1 &652973273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4313,9 +4761,10 @@ GameObject:
   - component: {fileID: 652973274}
   - component: {fileID: 652973276}
   - component: {fileID: 652973275}
+  - component: {fileID: 652973277}
   m_Layer: 0
   m_Name: bug_0 (8)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4400,6 +4849,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &652973277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 652973273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &666935829
 GameObject:
   m_ObjectHideFlags: 0
@@ -4411,7 +4875,7 @@ GameObject:
   - component: {fileID: 666935830}
   - component: {fileID: 666935832}
   - component: {fileID: 666935831}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4519,7 +4983,7 @@ GameObject:
   - component: {fileID: 669708695}
   - component: {fileID: 669708697}
   - component: {fileID: 669708696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4627,9 +5091,10 @@ GameObject:
   - component: {fileID: 675442277}
   - component: {fileID: 675442279}
   - component: {fileID: 675442278}
+  - component: {fileID: 675442280}
   m_Layer: 0
   m_Name: bug_0 (23)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4714,6 +5179,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &675442280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675442276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &681835340
 GameObject:
   m_ObjectHideFlags: 0
@@ -4725,9 +5205,10 @@ GameObject:
   - component: {fileID: 681835341}
   - component: {fileID: 681835343}
   - component: {fileID: 681835342}
+  - component: {fileID: 681835344}
   m_Layer: 0
   m_Name: bug_0 (27)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4812,6 +5293,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &681835344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 681835340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &704074018
 GameObject:
   m_ObjectHideFlags: 0
@@ -4823,9 +5319,10 @@ GameObject:
   - component: {fileID: 704074019}
   - component: {fileID: 704074021}
   - component: {fileID: 704074020}
+  - component: {fileID: 704074022}
   m_Layer: 0
   m_Name: bug_0 (11)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4910,6 +5407,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &704074022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704074018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &723806192
 GameObject:
   m_ObjectHideFlags: 0
@@ -5002,7 +5514,7 @@ GameObject:
   - component: {fileID: 727290302}
   - component: {fileID: 727290304}
   - component: {fileID: 727290303}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5190,9 +5702,10 @@ GameObject:
   - component: {fileID: 759038065}
   - component: {fileID: 759038067}
   - component: {fileID: 759038066}
+  - component: {fileID: 759038068}
   m_Layer: 0
   m_Name: bug_0 (29)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5277,6 +5790,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &759038068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759038064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &761237530
 GameObject:
   m_ObjectHideFlags: 0
@@ -5288,7 +5816,7 @@ GameObject:
   - component: {fileID: 761237531}
   - component: {fileID: 761237533}
   - component: {fileID: 761237532}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: robot corrupto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5396,7 +5924,7 @@ GameObject:
   - component: {fileID: 766151085}
   - component: {fileID: 766151087}
   - component: {fileID: 766151086}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5504,7 +6032,7 @@ GameObject:
   - component: {fileID: 774764880}
   - component: {fileID: 774764882}
   - component: {fileID: 774764881}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5612,7 +6140,7 @@ GameObject:
   - component: {fileID: 807240227}
   - component: {fileID: 807240229}
   - component: {fileID: 807240228}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5720,7 +6248,7 @@ GameObject:
   - component: {fileID: 818435630}
   - component: {fileID: 818435632}
   - component: {fileID: 818435631}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5988,9 +6516,10 @@ GameObject:
   - component: {fileID: 859321095}
   - component: {fileID: 859321097}
   - component: {fileID: 859321096}
+  - component: {fileID: 859321098}
   m_Layer: 0
   m_Name: bug_0 (6)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6075,6 +6604,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &859321098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859321094}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
+--- !u!224 &865413621 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+    type: 3}
+  m_PrefabInstance: {fileID: 2007418816}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &882056979
 GameObject:
   m_ObjectHideFlags: 0
@@ -6086,7 +6636,7 @@ GameObject:
   - component: {fileID: 882056980}
   - component: {fileID: 882056982}
   - component: {fileID: 882056981}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: robot corrupto (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6354,9 +6904,10 @@ GameObject:
   - component: {fileID: 901109431}
   - component: {fileID: 901109433}
   - component: {fileID: 901109432}
+  - component: {fileID: 901109434}
   m_Layer: 0
   m_Name: bug_0 (18)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6441,6 +6992,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &901109434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901109430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &906345695
 GameObject:
   m_ObjectHideFlags: 0
@@ -6533,9 +7099,10 @@ GameObject:
   - component: {fileID: 938070317}
   - component: {fileID: 938070319}
   - component: {fileID: 938070318}
+  - component: {fileID: 938070320}
   m_Layer: 0
   m_Name: bug_0 (5)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6620,6 +7187,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &938070320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938070316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &957173559
 GameObject:
   m_ObjectHideFlags: 0
@@ -6711,9 +7293,10 @@ GameObject:
   - component: {fileID: 958270974}
   - component: {fileID: 958270976}
   - component: {fileID: 958270975}
+  - component: {fileID: 958270977}
   m_Layer: 0
   m_Name: bug_0 (16)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6798,6 +7381,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &958270977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 958270973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &966975101
 GameObject:
   m_ObjectHideFlags: 0
@@ -7051,7 +7649,7 @@ GameObject:
   - component: {fileID: 1010269852}
   - component: {fileID: 1010269854}
   - component: {fileID: 1010269853}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio 2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7146,6 +7744,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1020972618 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3495622210579780432, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1944178531}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1020972619 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3048655158395727008, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1944178531}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1091386811
 GameObject:
   m_ObjectHideFlags: 0
@@ -7237,9 +7847,10 @@ GameObject:
   - component: {fileID: 1139379537}
   - component: {fileID: 1139379539}
   - component: {fileID: 1139379538}
+  - component: {fileID: 1139379540}
   m_Layer: 0
   m_Name: bug_0 (25)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7324,6 +7935,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1139379540
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1139379536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1144482533
 GameObject:
   m_ObjectHideFlags: 0
@@ -7335,7 +7961,7 @@ GameObject:
   - component: {fileID: 1144482534}
   - component: {fileID: 1144482536}
   - component: {fileID: 1144482535}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7443,9 +8069,10 @@ GameObject:
   - component: {fileID: 1146238153}
   - component: {fileID: 1146238155}
   - component: {fileID: 1146238154}
+  - component: {fileID: 1146238156}
   m_Layer: 0
   m_Name: bug_0 (4)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7530,6 +8157,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1146238156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146238152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1151995774
 GameObject:
   m_ObjectHideFlags: 0
@@ -7651,7 +8293,7 @@ GameObject:
   - component: {fileID: 1166174317}
   - component: {fileID: 1166174316}
   - component: {fileID: 1166174315}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7809,7 +8451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1175105892}
   - component: {fileID: 1175105893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: carro volador contaminante_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7891,9 +8533,10 @@ GameObject:
   - component: {fileID: 1177103988}
   - component: {fileID: 1177103990}
   - component: {fileID: 1177103989}
+  - component: {fileID: 1177103991}
   m_Layer: 0
   m_Name: bug_0 (3)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7978,6 +8621,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1177103991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177103987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1190922595
 GameObject:
   m_ObjectHideFlags: 0
@@ -7989,7 +8647,7 @@ GameObject:
   - component: {fileID: 1190922596}
   - component: {fileID: 1190922598}
   - component: {fileID: 1190922597}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8097,7 +8755,7 @@ GameObject:
   - component: {fileID: 1191712958}
   - component: {fileID: 1191712960}
   - component: {fileID: 1191712959}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: energia_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8207,7 +8865,7 @@ GameObject:
   - component: {fileID: 1208582009}
   - component: {fileID: 1208582011}
   - component: {fileID: 1208582010}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8315,7 +8973,7 @@ GameObject:
   - component: {fileID: 1211259428}
   - component: {fileID: 1211259430}
   - component: {fileID: 1211259429}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8503,9 +9161,10 @@ GameObject:
   - component: {fileID: 1224705905}
   - component: {fileID: 1224705907}
   - component: {fileID: 1224705906}
+  - component: {fileID: 1224705908}
   m_Layer: 0
   m_Name: bug_0 (20)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8590,6 +9249,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1224705908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224705904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1240579694
 GameObject:
   m_ObjectHideFlags: 0
@@ -8601,7 +9275,7 @@ GameObject:
   - component: {fileID: 1240579695}
   - component: {fileID: 1240579697}
   - component: {fileID: 1240579696}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8783,7 +9457,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1251593327}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalPosition: {x: -11.1, y: 23.7, z: 29.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -8800,7 +9474,7 @@ GameObject:
   - component: {fileID: 1288253084}
   - component: {fileID: 1288253086}
   - component: {fileID: 1288253085}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio destruido (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8896,6 +9570,80 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1304059569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1304059570}
+  - component: {fileID: 1304059572}
+  - component: {fileID: 1304059571}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1304059570
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304059569}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 865413621}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -881, y: 466}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1304059571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304059569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 2217735988855119311, guid: f81ad13d826088b4d9f1576a81229b6f,
+    type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1304059572
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304059569}
+  m_CullTransparentMesh: 0
 --- !u!1 &1321128043
 GameObject:
   m_ObjectHideFlags: 0
@@ -8907,9 +9655,10 @@ GameObject:
   - component: {fileID: 1321128044}
   - component: {fileID: 1321128046}
   - component: {fileID: 1321128045}
+  - component: {fileID: 1321128047}
   m_Layer: 0
   m_Name: bug_0 (22)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8994,6 +9743,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1321128047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1321128043}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1331120045
 GameObject:
   m_ObjectHideFlags: 0
@@ -9005,7 +9769,7 @@ GameObject:
   - component: {fileID: 1331120046}
   - component: {fileID: 1331120048}
   - component: {fileID: 1331120047}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9113,7 +9877,7 @@ GameObject:
   - component: {fileID: 1379622797}
   - component: {fileID: 1379622799}
   - component: {fileID: 1379622798}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9221,9 +9985,10 @@ GameObject:
   - component: {fileID: 1426198276}
   - component: {fileID: 1426198278}
   - component: {fileID: 1426198277}
+  - component: {fileID: 1426198279}
   m_Layer: 0
   m_Name: bug_0 (12)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9308,6 +10073,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1426198279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426198275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1426780110
 GameObject:
   m_ObjectHideFlags: 0
@@ -9400,7 +10180,7 @@ GameObject:
   - component: {fileID: 1463597077}
   - component: {fileID: 1463597079}
   - component: {fileID: 1463597078}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio destruido (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9428,7 +10208,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463597076}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -9486,7 +10266,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 83e98b89183fc3448aab2c459f51e6bb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.75686276}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -9507,9 +10287,10 @@ GameObject:
   - component: {fileID: 1484565972}
   - component: {fileID: 1484565974}
   - component: {fileID: 1484565973}
+  - component: {fileID: 1484565975}
   m_Layer: 0
   m_Name: bug_0 (13)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9594,6 +10375,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1484565975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1484565971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1485200565
 GameObject:
   m_ObjectHideFlags: 0
@@ -9605,7 +10401,7 @@ GameObject:
   - component: {fileID: 1485200566}
   - component: {fileID: 1485200568}
   - component: {fileID: 1485200567}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9713,9 +10509,10 @@ GameObject:
   - component: {fileID: 1487642619}
   - component: {fileID: 1487642621}
   - component: {fileID: 1487642620}
+  - component: {fileID: 1487642622}
   m_Layer: 0
   m_Name: bug_0 (9)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9800,6 +10597,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1487642622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487642618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1495926601
 GameObject:
   m_ObjectHideFlags: 0
@@ -9891,7 +10703,7 @@ GameObject:
   - component: {fileID: 1497975477}
   - component: {fileID: 1497975479}
   - component: {fileID: 1497975478}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10096,6 +10908,7 @@ GameObject:
   - component: {fileID: 1525294267}
   - component: {fileID: 1525294266}
   - component: {fileID: 1525294265}
+  - component: {fileID: 1525294268}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -10136,7 +10949,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 61.4
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -10162,12 +10975,72 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1525294264}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalPosition: {x: -1.4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1525294268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525294264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 485895856}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 1
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 1
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &1526317047
 GameObject:
   m_ObjectHideFlags: 0
@@ -10178,7 +11051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526317048}
   - component: {fileID: 1526317049}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio destruido (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10259,7 +11132,7 @@ GameObject:
   - component: {fileID: 1535675696}
   - component: {fileID: 1535675698}
   - component: {fileID: 1535675697}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10367,7 +11240,7 @@ GameObject:
   - component: {fileID: 1543730264}
   - component: {fileID: 1543730266}
   - component: {fileID: 1543730265}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10475,9 +11348,10 @@ GameObject:
   - component: {fileID: 1548527731}
   - component: {fileID: 1548527733}
   - component: {fileID: 1548527732}
+  - component: {fileID: 1548527734}
   m_Layer: 0
   m_Name: bug_0 (7)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10562,6 +11436,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1548527734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1548527730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1549145294
 GameObject:
   m_ObjectHideFlags: 0
@@ -10846,7 +11735,7 @@ GameObject:
   - component: {fileID: 1592324446}
   - component: {fileID: 1592324448}
   - component: {fileID: 1592324447}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11035,7 +11924,7 @@ GameObject:
   - component: {fileID: 1594994710}
   - component: {fileID: 1594994712}
   - component: {fileID: 1594994711}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11143,7 +12032,7 @@ GameObject:
   - component: {fileID: 1642402981}
   - component: {fileID: 1642402983}
   - component: {fileID: 1642402982}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11251,7 +12140,7 @@ GameObject:
   - component: {fileID: 1697587409}
   - component: {fileID: 1697587411}
   - component: {fileID: 1697587410}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11266,7 +12155,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697587408}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -23.37, y: 13.65, z: 30}
+  m_LocalPosition: {x: -23.37, y: 14.2, z: 30}
   m_LocalScale: {x: 6.2225, y: 6.2225, z: 6.2225}
   m_Children: []
   m_Father: {fileID: 1512408845}
@@ -11359,9 +12248,10 @@ GameObject:
   - component: {fileID: 1741173753}
   - component: {fileID: 1741173755}
   - component: {fileID: 1741173754}
+  - component: {fileID: 1741173756}
   m_Layer: 0
   m_Name: bug_0 (28)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11446,6 +12336,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1741173756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741173752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1756249919
 GameObject:
   m_ObjectHideFlags: 0
@@ -11457,9 +12362,10 @@ GameObject:
   - component: {fileID: 1756249920}
   - component: {fileID: 1756249922}
   - component: {fileID: 1756249921}
+  - component: {fileID: 1756249923}
   m_Layer: 0
   m_Name: bug_0 (24)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11544,6 +12450,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1756249923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1756249919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1762698627
 GameObject:
   m_ObjectHideFlags: 0
@@ -11555,7 +12476,7 @@ GameObject:
   - component: {fileID: 1762698628}
   - component: {fileID: 1762698630}
   - component: {fileID: 1762698629}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio destruido (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11662,7 +12583,7 @@ GameObject:
   - component: {fileID: 1774047010}
   - component: {fileID: 1774047012}
   - component: {fileID: 1774047011}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio destruido (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11677,7 +12598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774047009}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.8, y: -5.52, z: 30}
+  m_LocalPosition: {x: 10.8, y: -7.55, z: 30}
   m_LocalScale: {x: 8.25393, y: 8.25393, z: 8.25393}
   m_Children: []
   m_Father: {fileID: 1512408845}
@@ -11690,7 +12611,7 @@ BoxCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1774047009}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -11748,7 +12669,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 83e98b89183fc3448aab2c459f51e6bb, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.75686276}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -11769,9 +12690,10 @@ GameObject:
   - component: {fileID: 1774832138}
   - component: {fileID: 1774832139}
   - component: {fileID: 1774832140}
+  - component: {fileID: 1774832141}
   m_Layer: 0
   m_Name: bug_0
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11856,6 +12778,21 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.032986403}
   serializedVersion: 2
   m_Radius: 0.74701357
+--- !u!114 &1774832141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774832137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
 --- !u!1 &1777105510
 GameObject:
   m_ObjectHideFlags: 0
@@ -11947,7 +12884,7 @@ GameObject:
   - component: {fileID: 1827012895}
   - component: {fileID: 1827012897}
   - component: {fileID: 1827012896}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12044,7 +12981,7 @@ GameObject:
   - component: {fileID: 1842319708}
   - component: {fileID: 1842319710}
   - component: {fileID: 1842319709}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12141,6 +13078,130 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1844342993
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5640732716034918910, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasGameOver
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918910, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5640732716034918852, guid: 71b2861422520544db14983567654037,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 71b2861422520544db14983567654037, type: 3}
 --- !u!1 &1851498507
 GameObject:
   m_ObjectHideFlags: 0
@@ -12152,7 +13213,7 @@ GameObject:
   - component: {fileID: 1851498508}
   - component: {fileID: 1851498510}
   - component: {fileID: 1851498509}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12260,7 +13321,7 @@ GameObject:
   - component: {fileID: 1857270376}
   - component: {fileID: 1857270378}
   - component: {fileID: 1857270377}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12367,8 +13428,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1886161798}
   - component: {fileID: 1886161799}
+  - component: {fileID: 1886161801}
   - component: {fileID: 1886161800}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: edificio 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12438,8 +13500,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!68 &1886161800
-EdgeCollider2D:
+--- !u!61 &1886161800
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -12451,18 +13513,45 @@ EdgeCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.08508682, y: -1.4662659}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15, y: 15}
+    newSize: {x: 3, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.747772, y: 1.9846969}
   m_EdgeRadius: 0
-  m_Points:
-  - {x: -4.9549413, y: -2.3974254}
-  - {x: -4.9714284, y: -0.40931612}
-  - {x: 4.7626243, y: -0.4214817}
-  - {x: 4.865272, y: -2.5314198}
-  - {x: 7.445782, y: -2.5572681}
-  - {x: 7.462082, y: -5.5001884}
-  - {x: -7.487266, y: -5.4382515}
-  - {x: -7.546538, y: -2.4115133}
-  - {x: -5.0790224, y: -2.4266617}
+--- !u!61 &1886161801
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886161797}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -3.861805}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 15, y: 15}
+    newSize: {x: 3, y: 3}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 15, y: 2.6089365}
+  m_EdgeRadius: 0
 --- !u!1 &1892951108
 GameObject:
   m_ObjectHideFlags: 0
@@ -12478,7 +13567,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1892951109
 Transform:
   m_ObjectHideFlags: 0
@@ -12536,7 +13625,7 @@ GameObject:
   - component: {fileID: 1941814913}
   - component: {fileID: 1941814915}
   - component: {fileID: 1941814914}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12633,6 +13722,194 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1944178531
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7473662220118765757, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_Name
+      value: Character
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765757, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -9.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765699, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220118765756, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: character2Position
+      value: 
+      objectReference: {fileID: 1020972619}
+    - target: {fileID: 7473662220118765756, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: character3
+      value: 
+      objectReference: {fileID: 1020972618}
+    - target: {fileID: 7473662220118765698, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: tintos.Array.data[0]
+      value: 
+      objectReference: {fileID: 127431773}
+    - target: {fileID: 7473662220118765698, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: tintos.Array.data[1]
+      value: 
+      objectReference: {fileID: 224864957}
+    - target: {fileID: 7473662220118765698, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: tintos.Array.data[2]
+      value: 
+      objectReference: {fileID: 2071561405}
+    - target: {fileID: 7473662220568551385, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220568551391, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220568551391, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220568551384, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220568551328, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: healthImage
+      value: 
+      objectReference: {fileID: 106789475}
+    - target: {fileID: 7473662221056617921, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662221056617922, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662221056617931, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: jumpSpeed
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220939452525, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 7473662220939452526, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5018683061225663367, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: PlumaSpawner
+      value: 
+      objectReference: {fileID: 528836471}
+    - target: {fileID: 4592821706577494401, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592821706577494401, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.03752449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592821706577494401, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.03752449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592821706577494401, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.03752449
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592821706577494401, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.104
+      objectReference: {fileID: 0}
+    - target: {fileID: 4592821706577494401, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.107
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5175978006926190616, guid: 1de12fe2fb61c354bb739be2cffbc06f, type: 3}
+    - {fileID: 0}
+    - {fileID: 7764303615627464326, guid: 1de12fe2fb61c354bb739be2cffbc06f, type: 3}
+    - {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 1de12fe2fb61c354bb739be2cffbc06f, type: 3}
 --- !u!1 &1950378426
 GameObject:
   m_ObjectHideFlags: 0
@@ -12644,7 +13921,7 @@ GameObject:
   - component: {fileID: 1950378427}
   - component: {fileID: 1950378429}
   - component: {fileID: 1950378428}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12659,7 +13936,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1950378426}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -33.48, y: 15.88, z: 30}
+  m_LocalPosition: {x: -33.48, y: 16.9, z: 30}
   m_LocalScale: {x: 6.2225, y: 6.2225, z: 6.2225}
   m_Children: []
   m_Father: {fileID: 1512408845}
@@ -12752,7 +14029,7 @@ GameObject:
   - component: {fileID: 1965143074}
   - component: {fileID: 1965143076}
   - component: {fileID: 1965143075}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12860,7 +14137,7 @@ GameObject:
   - component: {fileID: 1968807213}
   - component: {fileID: 1968807214}
   - component: {fileID: 1968807215}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12958,9 +14235,10 @@ GameObject:
   - component: {fileID: 1987038786}
   - component: {fileID: 1987038788}
   - component: {fileID: 1987038787}
+  - component: {fileID: 1987038789}
   m_Layer: 0
   m_Name: bug_0 (1)
-  m_TagString: Untagged
+  m_TagString: bug
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13045,6 +14323,227 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1987038789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987038785}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f907a4ed8583443a33880eae32cf5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitSprite:
+  - {fileID: -9179059651195818830, guid: 6928a6150fd0c734895f60b30daabfc9, type: 3}
+  timesHit: 0
+--- !u!1001 &2007418816
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6356047792618526074, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Name
+      value: CanvasHealth
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526074, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792618526078, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713992, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 253
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713992, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713992, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 266
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713993, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8099162513847647933, guid: f81ad13d826088b4d9f1576a81229b6f,
+        type: 3}
+    - target: {fileID: 6356047792784713993, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713993, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713993, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047792784713993, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411689, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 235
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411689, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411689, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 124.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411689, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -38.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411690, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411690, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411690, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6356047793322411690, guid: 82253b9e09c0ef349848ebecbae09049,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -6792647551005092945, guid: f81ad13d826088b4d9f1576a81229b6f,
+        type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 82253b9e09c0ef349848ebecbae09049, type: 3}
 --- !u!1 &2045999949
 GameObject:
   m_ObjectHideFlags: 0
@@ -13087,7 +14586,7 @@ GameObject:
   - component: {fileID: 2048449181}
   - component: {fileID: 2048449183}
   - component: {fileID: 2048449182}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: robot corrupto (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13184,6 +14683,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &2071561405 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5640732716171705439, guid: 71b2861422520544db14983567654037,
+    type: 3}
+  m_PrefabInstance: {fileID: 1844342993}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2100516313
 GameObject:
   m_ObjectHideFlags: 0
@@ -13276,7 +14787,7 @@ GameObject:
   - component: {fileID: 2102640418}
   - component: {fileID: 2102640420}
   - component: {fileID: 2102640419}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13384,7 +14895,7 @@ GameObject:
   - component: {fileID: 2103227060}
   - component: {fileID: 2103227062}
   - component: {fileID: 2103227061}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_0 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13492,7 +15003,7 @@ GameObject:
   - component: {fileID: 2112388400}
   - component: {fileID: 2112388402}
   - component: {fileID: 2112388401}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13681,7 +15192,7 @@ GameObject:
   - component: {fileID: 2116899075}
   - component: {fileID: 2116899077}
   - component: {fileID: 2116899076}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: metro y rieles_2 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
