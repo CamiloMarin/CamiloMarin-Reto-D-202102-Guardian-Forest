@@ -13,6 +13,7 @@ public class Dialogue_Manager : MonoBehaviour
     [SerializeField] bool closeDialog = false;
     [SerializeField] bool activeActions = false;
     public GameObject portal;
+    public Animator transitionsAnim;
 
     public GameObject dialoguePanel;
     public Text displayText;
@@ -152,15 +153,23 @@ public class Dialogue_Manager : MonoBehaviour
 
         if (obj.CompareTag("Player"))
         {
+            StartCoroutine(LoadClose());
             this.closeDialog = false;
-
             activeActions = false;
             
-            dialoguePanel.SetActive(false);
             portal.SetActive(true);
 
         }
     }
 
-   
+    IEnumerator LoadClose()
+    {
+
+        transitionsAnim.SetTrigger("isClose");
+        yield return new WaitForSeconds(1.5f);
+        dialoguePanel.SetActive(false);
+
+    }
+
+
 }
