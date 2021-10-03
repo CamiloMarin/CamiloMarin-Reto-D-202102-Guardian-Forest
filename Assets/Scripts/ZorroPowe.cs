@@ -53,13 +53,7 @@ public class ZorroPowe : MonoBehaviour
 
 
         } 
-        
 
-    }
-    
-     
-    void FixedUpdate() 
-    {
         if(isDashing)
         {
             
@@ -71,6 +65,14 @@ public class ZorroPowe : MonoBehaviour
             animateDash = false;
            
         }
+        
+
+    }
+    
+     
+    void FixedUpdate() 
+    {
+        
     }
         
     IEnumerator Dash()
