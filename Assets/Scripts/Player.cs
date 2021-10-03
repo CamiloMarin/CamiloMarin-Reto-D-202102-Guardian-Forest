@@ -48,11 +48,15 @@ public class Player : MonoBehaviour
     private bool isJumping;
 
     public bool isFliping = false;
-    
+
+    public static Player instance;
+
+
 
     void Start()
     {
-      
+        instance = this;
+
         rB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         localScale = transform.localScale;

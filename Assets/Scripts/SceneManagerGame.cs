@@ -5,13 +5,29 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerGame : MonoBehaviour
 {
+    public Animator transitionsAnim;
+    public string sceneName;
+    public AudioSource buttonSound;
     public void CambiarEscena()
     {
-        SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+        StartCoroutine(LoadScene());
     }
     public void ReStart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        StartCoroutine(LoadScene());
     }
-   
+
+    public void Play()
+    {
+        StartCoroutine(LoadScene());
+    }
+
+    IEnumerator LoadScene()
+    {
+        transitionsAnim.SetTrigger("end");
+        buttonSound.Play();
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene(sceneName);
+    }
+
 }
