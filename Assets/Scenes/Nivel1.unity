@@ -13970,6 +13970,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7473662220568551329, guid: 1de12fe2fb61c354bb739be2cffbc06f,
+        type: 3}
+      propertyPath: shieldSound
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5175978006926190616, guid: 1de12fe2fb61c354bb739be2cffbc06f, type: 3}
     - {fileID: 0}
