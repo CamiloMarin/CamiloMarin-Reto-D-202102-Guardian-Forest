@@ -9,9 +9,14 @@ public class PlumasShoot : MonoBehaviour
     public GameObject PlumaPrefab;
     //public AudioSource disparoplayerSource;
     //public ParticleSystem ps;
-    //public Animator anim;
+    public Animator anim;
     public float fireRate;
     private float nextfire;
+    private bool isAttacking = false;
+    
+    Player player;
+    public Rigidbody2D rB;
+  
 
     private void PlayerShooting()
     {
@@ -19,17 +24,20 @@ public class PlumasShoot : MonoBehaviour
         {
             nextfire = Time.time + fireRate;
             Instantiate(PlumaPrefab, PlumaSpawner.position, PlumaSpawner.rotation);
+            isAttacking = true;
             
             //disparoplayerSource.Play();
-
+            
 
 
             //if (ps != null)
             //{
             //  Instantiate<ParticleSystem>(ps, transform.position, ps.transform.rotation).Play();
-            //anim.SetTrigger("New Trigger");
+           
             //}
         }
+
+
 
     }
 
@@ -37,12 +45,41 @@ public class PlumasShoot : MonoBehaviour
     {
 
         //disparoplayerSource = GetComponent<AudioSource>();
-        //anim = GetComponent<Animator>();
+        player = gameObject.GetComponent<Player>();    
+        rB = GetComponent<Rigidbody2D>();
+       
     }
     void Update()
     {
 
         PlayerShooting();
+        isJumpingEnable();
+        
+        StartCoroutine(isAttackEnable());
+        
+
 
     }
+
+
+    IEnumerator isAttackEnable()
+    {   
+        if(isAttacking)
+        {
+        anim.SetBool("isAttacking", true);
+        yield return new WaitForSeconds(anim.GetCurrentAnimatorStateInfo(0).length+anim.GetCurrentAnimatorStateInfo(0).normalizedTime);
+        isAttacking = false;
+        anim.SetBool("isAttacking", false);
+        }
+    }
+
+    void isJumpingEnable(){
+        if(player.isFalling == true){
+        rB.drag = 15f;
+        }else
+        {
+            rB.drag=0;
+        }
+    }
+
 }
