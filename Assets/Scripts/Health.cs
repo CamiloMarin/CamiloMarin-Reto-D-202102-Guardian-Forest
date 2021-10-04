@@ -8,37 +8,38 @@ public class Health : MonoBehaviour
     public Image healthImage;
 
     public Animator camAnim;
-    private ShieldPower shield;
     private float health;
-    //public Collider2D ceiba;
-    //public Collider2D zorro;
-    //public Collider2D barranquero;
+ 
 
     void Start()
     {
         Time.timeScale = 1;
-        health = 1f;
-        healthImage.fillAmount = health;    
-        shield = this.GetComponent<ShieldPower>();
 
-        //ceiba.GetComponent<Collider2D>();
-        //zorro.GetComponent<Collider2D>();
-        //barranquero.GetComponent<Collider2D>();
-
+        StartCoroutine(GetItems());
         
+    }
+
+    IEnumerator GetItems()
+    {
+        yield return new WaitForSeconds(0.5f);
+        health = HealthMaster.Instance.health;
+        healthImage.fillAmount = health;
     }
 
     void TakeDamage (float amount)
     {
-        health -= amount;
+        health = HealthMaster.Instance.health;
+        HealthMaster.Instance.health -= amount;
+        health = HealthMaster.Instance.health;
         healthImage.fillAmount = health;
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (!shield.ActiveShield)
+        if (!ShieldPower.instance2.IsActive)
         {
-            if(other.tag == "agua")
+
+            if (other.tag == "agua")
             {
                 TakeDamage(1f);
                 SoundManager.Playsound("damage");
@@ -51,7 +52,7 @@ public class Health : MonoBehaviour
                 camAnim.SetTrigger("shake");
             }
 
-            if (health <= 0)
+            if (HealthMaster.Instance.health <= 0)
             {
                 Time.timeScale = 0;
                 if (ExternLives.numOfTintos > 0)

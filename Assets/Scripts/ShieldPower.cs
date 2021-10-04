@@ -15,6 +15,7 @@ public class ShieldPower : MonoBehaviour
     public Player player;
     private int isTapped =  0;
     public static ShieldPower instance2;
+    public bool IsActive = false;
 
     
 
@@ -45,7 +46,7 @@ public class ShieldPower : MonoBehaviour
             {
                 if (!activateShield) // y el escudo no se ha activado
             {
-
+                    IsActive = true;
                     SoundManager.Playsound("shield");
                     anim.SetBool("ShieldActivate", true);
                 shield.SetActive(true);
@@ -60,6 +61,8 @@ public class ShieldPower : MonoBehaviour
 
             else // si el escudo ya se activo
             {
+                IsActive = false;
+
                 player.runSpeed = moveSpeed;
                 player.jumpSpeed = jumpForce;
                 shield.SetActive(false);
