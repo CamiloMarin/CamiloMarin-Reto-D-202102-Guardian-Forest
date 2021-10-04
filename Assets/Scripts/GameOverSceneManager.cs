@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManagerGame : MonoBehaviour
+public class GameOverSceneManager : MonoBehaviour
 {
     public Animator transitionsAnim;
-    public string sceneName;
-    public AudioSource buttonSound;
+    
     public void CambiarEscena()
     {
         StartCoroutine(LoadScene());
@@ -17,17 +16,13 @@ public class SceneManagerGame : MonoBehaviour
         StartCoroutine(LoadRestart());
     }
 
-    public void Play()
-    {
-        StartCoroutine(LoadScene());
-    }
-
     IEnumerator LoadScene()
     {
         transitionsAnim.SetTrigger("end");
-        buttonSound.Play();
+        SoundManager.Playsound("on");
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("MainMenu");
+
     }
 
     IEnumerator LoadRestart()
@@ -35,7 +30,6 @@ public class SceneManagerGame : MonoBehaviour
         transitionsAnim.SetTrigger("end");
         SoundManager.Playsound("on");
         yield return new WaitForSeconds(1.5f);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(3);
     }
-
 }

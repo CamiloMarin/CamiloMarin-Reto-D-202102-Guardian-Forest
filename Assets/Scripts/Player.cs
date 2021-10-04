@@ -178,13 +178,19 @@ public class Player : MonoBehaviour
    {
         localScale.x *= -1;
         isFliping = true;
-         
-   }
+        
+
+    }
 
     private void FootStep()
     {
         footStep.Play();
     }
-    
+
+    private void FlySound()
+    {
+        SoundManager.Playsound("fly");
+    }
+
 
 }

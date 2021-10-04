@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class Health : MonoBehaviour
 {
     public Image healthImage;
-  
 
+    public Animator camAnim;
     private ShieldPower shield;
     private float health;
     void Start()
@@ -31,10 +31,14 @@ public class Health : MonoBehaviour
             if(other.tag == "agua")
             {
                 TakeDamage(1f);
+                SoundManager.Playsound("damage");
+               
             }
             else if (other.tag == "lluvia")
             {
-                TakeDamage(0.5f);
+                TakeDamage(0.3f);
+                SoundManager.Playsound("damage");
+                camAnim.SetTrigger("shake");
             }
 
             if (health <= 0)
@@ -44,6 +48,7 @@ public class Health : MonoBehaviour
                 {
                     ExternLives.numOfTintos -= 1;
                 }
+                SoundManager.Playsound("dead");
                 GameOver.Instance.show();
             }
         }

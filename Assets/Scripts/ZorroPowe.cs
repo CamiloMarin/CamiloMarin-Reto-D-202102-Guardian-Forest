@@ -40,8 +40,9 @@ public class ZorroPowe : MonoBehaviour
         }
         
         if (Input.GetMouseButtonDown(0) && canDash == true)
-        { 
-           if(dashCoroutine != null)
+        {
+            
+            if (dashCoroutine != null)
             {
                 
                 StopCoroutine(dashCoroutine);
@@ -83,7 +84,7 @@ public class ZorroPowe : MonoBehaviour
         canDash = false;
         rb.gravityScale = 0;
         rb.velocity = Vector2.zero;
-        
+        SoundManager.Playsound("dash");
         yield return new WaitForSeconds(dashDuration);
         //
         
