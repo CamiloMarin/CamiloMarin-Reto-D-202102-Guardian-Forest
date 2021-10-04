@@ -41,7 +41,7 @@ public class Player : MonoBehaviour
 
     // Boolean para accionar la animacion de jump down o caida una sola vez
 
-    private bool isFalling;
+    public bool isFalling;
 
     // boolean para saber si se esta ejecutando la anim de saltar o de jump up
 
@@ -134,6 +134,7 @@ public class Player : MonoBehaviour
             isJumping = false;
             anim.SetBool("isJumping", false); 
             anim.SetBool("isFalling", true);
+            isFalling = true;
             
             
           
@@ -142,7 +143,7 @@ public class Player : MonoBehaviour
 
             {
                 anim.SetBool("isFalling", false);  
-               //  isFalling = false;
+                isFalling = false;
                 
             }
 
