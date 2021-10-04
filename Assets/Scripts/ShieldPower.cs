@@ -6,7 +6,7 @@ public class ShieldPower : MonoBehaviour
 {   
     [Header("Gameobject // Objeto")]
     public GameObject shield;
-    private bool activateShield;
+    public bool activateShield;
     [Header("Particulas del escudo")]
     public ParticleSystem Shield;
 
@@ -14,6 +14,7 @@ public class ShieldPower : MonoBehaviour
     [Header("Clase del objeto-jugador")]
     public Player player;
     private int isTapped =  0;
+    public static ShieldPower instance2;
 
     
 
@@ -30,6 +31,7 @@ public class ShieldPower : MonoBehaviour
         activateShield = false;
         shield.SetActive(false);
         anim = GetComponent<Animator>();
+        instance2 = this;
         
         
     }
@@ -43,16 +45,18 @@ public class ShieldPower : MonoBehaviour
             {
                 if (!activateShield) // y el escudo no se ha activado
             {
-                SoundManager.Playsound("shield");
 
-                anim.SetBool("ShieldActivate", true);
+                    SoundManager.Playsound("shield");
+                    anim.SetBool("ShieldActivate", true);
                 shield.SetActive(true);
                 activateShield = true;
                 player.runSpeed = 0;
                 player.jumpSpeed = 0;
                 isTapped = 1;
                 ShieldParticles();
-            }
+                
+
+                }
 
             else // si el escudo ya se activo
             {

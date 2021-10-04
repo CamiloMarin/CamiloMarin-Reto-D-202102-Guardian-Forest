@@ -7,8 +7,6 @@ public class PlumasShoot : MonoBehaviour
 {
     public Transform PlumaSpawner;
     public GameObject PlumaPrefab;
-    //public AudioSource disparoplayerSource;
-    //public ParticleSystem ps;
     public Animator anim;
     public float fireRate;
     private float nextfire;
@@ -27,15 +25,7 @@ public class PlumasShoot : MonoBehaviour
             Instantiate(PlumaPrefab, PlumaSpawner.position, PlumaSpawner.rotation);
             isAttacking = true;
             
-            //disparoplayerSource.Play();
             
-
-
-            //if (ps != null)
-            //{
-            //  Instantiate<ParticleSystem>(ps, transform.position, ps.transform.rotation).Play();
-           
-            //}
         }
 
 
@@ -45,7 +35,7 @@ public class PlumasShoot : MonoBehaviour
     void Start()
     {
 
-        //disparoplayerSource = GetComponent<AudioSource>();
+        
         player = gameObject.GetComponent<Player>();    
         rB = GetComponent<Rigidbody2D>();
        

@@ -10,12 +10,22 @@ public class Health : MonoBehaviour
     public Animator camAnim;
     private ShieldPower shield;
     private float health;
+    //public Collider2D ceiba;
+    //public Collider2D zorro;
+    //public Collider2D barranquero;
+
     void Start()
     {
         Time.timeScale = 1;
         health = 1f;
         healthImage.fillAmount = health;    
         shield = this.GetComponent<ShieldPower>();
+
+        //ceiba.GetComponent<Collider2D>();
+        //zorro.GetComponent<Collider2D>();
+        //barranquero.GetComponent<Collider2D>();
+
+        
     }
 
     void TakeDamage (float amount)
@@ -50,6 +60,7 @@ public class Health : MonoBehaviour
                 }
                 SoundManager.Playsound("dead");
                 GameOver.Instance.show();
+                
             }
         }
 
