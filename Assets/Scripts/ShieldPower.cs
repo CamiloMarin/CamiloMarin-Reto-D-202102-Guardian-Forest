@@ -15,11 +15,15 @@ public class ShieldPower : MonoBehaviour
     public Player player;
     private int isTapped =  0;
 
-     float moveSpeed; // variable que se iguala a la variable de velocidad con el fin de resetearla mas adelante
+    
+
+    float moveSpeed; // variable que se iguala a la variable de velocidad con el fin de resetearla mas adelante
      float jumpForce; // variable que se iguala a la variable de fuerza de salto con el fin de resetearla mas adelante
 
     void Start()
     {
+
+        
         moveSpeed = player.runSpeed;
         jumpForce = player.jumpSpeed;
       
@@ -39,6 +43,8 @@ public class ShieldPower : MonoBehaviour
             {
                 if (!activateShield) // y el escudo no se ha activado
             {
+                SoundManager.Playsound("shield");
+
                 anim.SetBool("ShieldActivate", true);
                 shield.SetActive(true);
                 activateShield = true;

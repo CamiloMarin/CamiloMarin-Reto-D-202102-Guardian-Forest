@@ -18,9 +18,11 @@ public class DestroyBugs : MonoBehaviour
    void HitHandle ()
     {
         timesHit++;
+        
         int maxHits = hitSprite.Length + 1;
-        if (timesHit >= maxHits) { 
-        Destroy(gameObject);
+        if (timesHit >= maxHits) {
+            SoundManager.Playsound("bug");
+            Destroy(gameObject);
         }
         else
         {
@@ -34,6 +36,7 @@ public class DestroyBugs : MonoBehaviour
         if (hitSprite[spriteIndex]!= null)
         {
             GetComponent<SpriteRenderer>().sprite = hitSprite[spriteIndex];
+            
         }
         else
         {

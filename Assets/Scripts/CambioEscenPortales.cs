@@ -8,6 +8,7 @@ public class CambioEscenPortales : MonoBehaviour
     public Animator transitionsAnimPortal;
     public Animator transitionsAnim;
     public string sceneName;
+    public AudioSource portalSound;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -24,7 +25,7 @@ public class CambioEscenPortales : MonoBehaviour
     IEnumerator LoadPortal()
     {
         transitionsAnimPortal.SetTrigger("isTeletransport");
-        
+        portalSound.Play();
         yield return new WaitForSeconds(1.5f);
         StartCoroutine(LoadScene());
     }

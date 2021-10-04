@@ -22,6 +22,7 @@ public class PlumasShoot : MonoBehaviour
     {
         if (Input.GetMouseButtonUp(0) && Time.time > nextfire)
         {
+            SoundManager.Playsound("attack");
             nextfire = Time.time + fireRate;
             Instantiate(PlumaPrefab, PlumaSpawner.position, PlumaSpawner.rotation);
             isAttacking = true;

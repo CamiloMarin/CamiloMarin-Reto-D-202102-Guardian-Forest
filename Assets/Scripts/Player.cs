@@ -51,6 +51,9 @@ public class Player : MonoBehaviour
 
     public static Player instance;
 
+    private AudioSource footStep;
+    
+
 
 
     void Start()
@@ -60,6 +63,8 @@ public class Player : MonoBehaviour
         rB = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         localScale = transform.localScale;
+        footStep = GetComponent<AudioSource>();
+        
     }
 
     
@@ -173,7 +178,19 @@ public class Player : MonoBehaviour
    {
         localScale.x *= -1;
         isFliping = true;
-         
-   } 
+        
+
+    }
+
+    private void FootStep()
+    {
+        footStep.Play();
+    }
+
+    private void FlySound()
+    {
+        SoundManager.Playsound("fly");
+    }
+
 
 }
