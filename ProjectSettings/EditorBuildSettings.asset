@@ -6,18 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Escene_1.unity
-    guid: d1c3109bdb54ad54c8a2b2838528e640
-  - enabled: 1
-    path: Assets/Scenes/karen.unity
-    guid: 65a1769151dfc2449aba33ad75858d4d
-  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: 85bb49cfce3df194a871f2d9c9a7a5c2
+  - enabled: 1
+    path: Assets/Scenes/Historia.unity
+    guid: 0667c0890d9e64c4984345cd19058e66
+  - enabled: 1
+    path: Assets/Scenes/Pachamama.unity
+    guid: 0e65e821f72ebc04bb4dbc86f36450a3
+  - enabled: 1
+    path: Assets/Scenes/Manual.unity
+    guid: 33bb85da7eeeaa642b99e13352741a47
   - enabled: 1
     path: Assets/Scenes/Nivel1.unity
     guid: e1ca10f885de8a94ba20ffe40c97c111
   - enabled: 1
-    path: Assets/Scenes/Manual.unity
-    guid: 33bb85da7eeeaa642b99e13352741a47
+    path: Assets/Scenes/CentroMedellin.unity
+    guid: f59383fdc6c83de469f2c25ce8d7748e
   m_configObjects: {}

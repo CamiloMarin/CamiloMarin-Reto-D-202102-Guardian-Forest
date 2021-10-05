@@ -9,6 +9,7 @@ public class GameOverSceneManager : MonoBehaviour
     
     public void CambiarEscena()
     {
+        Time.timeScale = 1;
         SceneManager.LoadScene("MainMenu");
     }
     public void ReStart()
