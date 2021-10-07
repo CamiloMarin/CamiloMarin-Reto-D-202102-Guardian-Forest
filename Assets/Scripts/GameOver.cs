@@ -30,6 +30,7 @@ public class GameOver : MonoBehaviour
     {
         tintos.SetActive(true);
         GameOverStatic.SetActive(true);
+        
 
     }
     public void hide()

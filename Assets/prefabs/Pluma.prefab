@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3486391984284984940}
   - component: {fileID: 3806690823790745650}
   - component: {fileID: 4854027482533958470}
+  - component: {fileID: 5630851194534061145}
   m_Layer: 0
   m_Name: Pluma
   m_TagString: Untagged
@@ -133,3 +134,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plumaSpeed: -15
+--- !u!114 &5630851194534061145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273643657832564521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20c6cfde4da17f649850406ef3431b46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  car: {fileID: 273643657832564521}
