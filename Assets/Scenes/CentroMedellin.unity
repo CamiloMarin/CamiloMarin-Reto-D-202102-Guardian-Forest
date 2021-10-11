@@ -856,7 +856,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
 --- !u!114 &193684449 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4336603978975410792, guid: db2658a4cd4230340919ba74d3662bb4,
+  m_CorrespondingSourceObject: {fileID: 2066877770664965055, guid: db2658a4cd4230340919ba74d3662bb4,
     type: 3}
   m_PrefabInstance: {fileID: 193684447}
   m_PrefabAsset: {fileID: 0}
@@ -950,11 +950,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 715778878353442086, guid: 5ec0b56bb3ae9b44fb139ac409596395,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 715778878353442080, guid: 5ec0b56bb3ae9b44fb139ac409596395,
         type: 3}
       propertyPath: transitionsAnimPortal
@@ -969,6 +964,16 @@ PrefabInstance:
         type: 3}
       propertyPath: sceneName
       value: MainMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 715778878353442086, guid: 5ec0b56bb3ae9b44fb139ac409596395,
+        type: 3}
+      propertyPath: m_SortingOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 715778878235100594, guid: 5ec0b56bb3ae9b44fb139ac409596395,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 715778878235100589, guid: 5ec0b56bb3ae9b44fb139ac409596395,
         type: 3}
@@ -1460,9 +1465,9 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.038041178, y: 0.01629338}
-  m_Size: {x: 0.38055032, y: 0.83773506}
-  m_Direction: 0
+  m_Offset: {x: 0.36445165, y: -0.169235}
+  m_Size: {x: 1.033372, y: 0.50943756}
+  m_Direction: 1
 --- !u!82 &404854798
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1594,10 +1599,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: {fileID: 404854801}
   characterImage: {fileID: 193684448}
-  closeDialogBtn: {fileID: 0}
   closeDialog: 0
   activeActions: 0
-  portal: {fileID: 1081641719}
+  portal: {fileID: 946183129}
   transitionsAnim: {fileID: 193684452}
   dialoguePanel: {fileID: 193684450}
   displayText: {fileID: 193684449}
@@ -2136,6 +2140,16 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5007187673209977186, guid: d8c6460031ec6fe45adf8653fb61d832,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.228
+      objectReference: {fileID: 0}
+    - target: {fileID: 5007187673209977187, guid: d8c6460031ec6fe45adf8653fb61d832,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5007187673676365076, guid: d8c6460031ec6fe45adf8653fb61d832,
         type: 3}
       propertyPath: m_SortingOrder
@@ -2145,16 +2159,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SleepingMode
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5007187673209977187, guid: d8c6460031ec6fe45adf8653fb61d832,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5007187673209977186, guid: d8c6460031ec6fe45adf8653fb61d832,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.228
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8c6460031ec6fe45adf8653fb61d832, type: 3}
@@ -2302,11 +2306,11 @@ GameObject:
   m_Component:
   - component: {fileID: 742101471}
   - component: {fileID: 742101472}
-  - component: {fileID: 742101473}
   - component: {fileID: 742101476}
   - component: {fileID: 742101475}
   - component: {fileID: 742101474}
   - component: {fileID: 742101477}
+  - component: {fileID: 742101473}
   m_Layer: 0
   m_Name: Maquina
   m_TagString: Untagged
@@ -2365,7 +2369,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: b0dc033eb82a10041bd60de0530be6ff, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2377,8 +2381,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &742101473
-BoxCollider2D:
+--- !u!70 &742101473
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2390,19 +2394,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0840919, y: -0.09004469}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 2, y: 2}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.1831088, y: 0.81141317}
-  m_EdgeRadius: 0
+  m_Offset: {x: 0.38627854, y: -0.16920184}
+  m_Size: {x: 0.84806, y: 0.6177204}
+  m_Direction: 1
 --- !u!114 &742101474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2417,7 +2411,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: {fileID: 742101475}
   characterImage: {fileID: 193684448}
-  closeDialogBtn: {fileID: 0}
   closeDialog: 0
   activeActions: 0
   portal: {fileID: 234758500}
@@ -2560,7 +2553,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 0
 --- !u!1 &771868534
 GameObject:
@@ -3186,6 +3179,36 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &946183129
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 946183130}
+  m_Layer: 0
+  m_Name: fake
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &946183130
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 946183129}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.223621, y: -4.3931875, z: -1.3851563}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960602122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3385,12 +3408,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1081641719 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 715778878235100594, guid: 5ec0b56bb3ae9b44fb139ac409596395,
-    type: 3}
-  m_PrefabInstance: {fileID: 234758499}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1095808055
 GameObject:
   m_ObjectHideFlags: 0
@@ -5965,10 +5982,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue: {fileID: 2072870151}
   characterImage: {fileID: 193684448}
-  closeDialogBtn: {fileID: 0}
   closeDialog: 0
   activeActions: 0
-  portal: {fileID: 1081641719}
+  portal: {fileID: 946183129}
   transitionsAnim: {fileID: 193684452}
   dialoguePanel: {fileID: 193684450}
   displayText: {fileID: 193684449}
@@ -6108,9 +6124,9 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.026073901, y: 0.091203816}
-  m_Size: {x: 0.35734916, y: 0.87949616}
-  m_Direction: 0
+  m_Offset: {x: -0.23070058, y: -0.13181812}
+  m_Size: {x: 1.0026163, y: 0.43345332}
+  m_Direction: 1
 --- !u!50 &2072870154
 Rigidbody2D:
   serializedVersion: 4

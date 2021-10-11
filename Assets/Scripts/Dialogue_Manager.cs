@@ -9,7 +9,7 @@ public class Dialogue_Manager : MonoBehaviour
     Queue<string> sentences;
     Queue<Sprite> images;
     [SerializeField] Image characterImage;
-    [SerializeField] Button closeDialogBtn;
+   
     [SerializeField] bool closeDialog = false;
     [SerializeField] bool activeActions = false;
     public GameObject portal;
@@ -27,7 +27,7 @@ public class Dialogue_Manager : MonoBehaviour
 
     void Start()
     {
-        //closeDialogBtn.onClick.AddListener(CloseTheDialog);
+       
         sentences = new Queue<string>();
         images = new Queue<Sprite>();
         myAudio = GetComponent<AudioSource>();
